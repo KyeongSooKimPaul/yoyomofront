@@ -79,15 +79,15 @@ const OutsideImagePage = () => {
   //   },
   // });
 
-  var { loading, data,error } = useQuery(QUERY_PROUDCTSBYIDFIRSTMUTATION2, {
-    variables: {
-      id: 1,
-    },onCompleted = (data) => {
-      console.log("data", data)
-    },onError = (error) => {
-      console.log("error", error)
-    }
-  })
+  // var { loading, data,error } = useQuery(QUERY_PROUDCTSBYIDFIRSTMUTATION2, {
+  //   variables: {
+  //     id: 1,
+  //   },onCompleted = (data) => {
+  //     console.log("data", data)
+  //   },onError = (error) => {
+  //     console.log("error", error)
+  //   }
+  // })
 
   var products = {
     slidesToShow: 1,
