@@ -15,7 +15,8 @@ export const APOLLO_STATE_PROP_NAME = '__APOLLO_STATE__'
 
 let apolloClient
 
-const httpLink = new HttpLink({ uri: 'http://localhost:4001' })
+// const httpLink = new HttpLink({ uri: 'http://localhost:4001' })
+const httpLink = new HttpLink({ uri: 'http://ec2-54-180-81-245.ap-northeast-2.compute.amazonaws.com/:4001' })
 const authLink = setContext(async (req, { headers }) => {
   const token = localStorage.getItem('token')
 
