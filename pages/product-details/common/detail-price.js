@@ -340,7 +340,7 @@ const DetailsWithPrice = ({ item, stickyClass, changeColorVar }) => {
           </div>
         </div>
 
-        <div className="border-product">
+        {/* <div className="border-product">
           <div
             style={{
             
@@ -352,7 +352,7 @@ const DetailsWithPrice = ({ item, stickyClass, changeColorVar }) => {
             <Media src=" https://yoyomobucket.s3.ap-northeast-2.amazonaws.com/58008128-13ca-43cb-8a0f-13603e986ced.png" className="img-fluid mb-4 mx-auto" alt="" />
            
           </div>
-        </div>
+        </div> */}
         {/* <div className="border-product">
           <h6 className="product-title">종료까지 남은 시간</h6>
           <CountdownComponent />
