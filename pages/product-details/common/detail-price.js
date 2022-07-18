@@ -238,7 +238,7 @@ const DetailsWithPrice = ({ item, stickyClass, changeColorVar }) => {
               style={{ color: '#191919', float: 'right' }}
               className="product-title"
             >
-               공유하기
+              공유하기
               {/* <MasterSocial /> */}
             </h5>
           </div>

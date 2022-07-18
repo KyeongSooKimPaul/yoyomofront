@@ -92,8 +92,8 @@ const HeaderOne = ({
                     <SideBar />
                   </div>
                   <div className="brand-logo">
-                    <strong style={{ fontSize: '26px' }}> yoyomo</strong>
-                    {/* <LogoImage logo={logoName} /> */}
+                    {/* <strong style={{ fontSize: '26px' }}> yoyomo</strong> */}
+                    <LogoImage logo={logoName} />
                   </div>
                 </div>
                 <div className="menu-right pull-right">
